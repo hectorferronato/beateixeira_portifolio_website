@@ -16,11 +16,11 @@ Open the site through your development environment's supported browser routing. 
 - Share a specific language with `?lang=en` or `?lang=pt-br`.
 - Edit copy in `index.html` and `translations.json` together. The latter holds both languages.
 - After editing CSS, JavaScript, or translations, run `python3 scripts/version_assets.py` before committing. It adds content hashes to asset URLs so visitors get matching files instead of stale cached versions.
-- Topic buttons update a bilingual creative-approach panel with three brand concepts and filter the photo-based content gallery. The chosen topic remains selected when changing languages.
+- Topic buttons update a bilingual creative-approach panel with three brand concepts and a photograph inside the same panel. The chosen topic remains selected when changing languages.
 - Contact buttons open an email addressed to `beateixeiraoficial@gmail.com`.
 - Images are extracted from Bea's supplied HTML; no invented testimonials or brand partnerships are included.
 - Audience figures come from the original portfolio, with an explicit reporting-date caveat. Confirm them before using the portfolio for outreach.
-- The photo gallery introduces content themes. The selected Reels section uses Instagram’s official blockquotes and embed.js to embed five videos supplied by Bea, including her SHEIN collaboration. Instagram controls frame height; do not apply fixed heights or a guessed aspect ratio to its generated iframes. Each embed has a direct Instagram fallback link. Instagram controls playback availability and may require sign-in. Photos are not presented as video thumbnails. Social cards link to Bea’s confirmed Instagram, TikTok, and YouTube profiles.
+- The topic panel combines photography with content concepts. The video showcase uses Instagram’s official blockquotes and embed.js to show one selected post at a time from seven videos supplied by Bea, including her SHEIN collaboration. Instagram controls frame height; do not apply fixed heights or a guessed aspect ratio to its generated iframes. The active post has a direct Instagram fallback link. The official Instagram UI cannot be stripped from the cross-origin player. A minimal native video player would require original video files or reliable direct media URLs. The selected examples are labelled as Portuguese; a separate English UGC offer links to the earlier portfolio, ugcbea.com, which was supplied by Bea but could not be inspected from the cloud environment. Instagram controls playback availability and may require sign-in. Photos are not presented as video thumbnails. Social cards link to Bea’s confirmed Instagram, TikTok, and YouTube profiles.
 
 ## Free hosting
 
