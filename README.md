@@ -15,11 +15,11 @@ Open the site through your development environment's supported browser routing. 
 - English is the first-visit default. The top language button switches to Brazilian Portuguese and updates the URL. Language is dictated by the URL, not stored browser preferences.
 - Share a specific language with `?lang=en` or `?lang=pt-br`.
 - Edit copy in `index.html` and `translations.json` together. The latter holds both languages.
-- Category buttons filter the photo-based content gallery.
+- Topic buttons update a bilingual creative-approach panel with three brand concepts and filter the photo-based content gallery. The chosen topic remains selected when changing languages.
 - Contact buttons open an email addressed to `beateixeiraoficial@gmail.com`.
 - Images are extracted from Bea's supplied HTML; no invented testimonials or brand partnerships are included.
 - Audience figures come from the original portfolio, with an explicit reporting-date caveat. Confirm them before using the portfolio for outreach.
-- The photo gallery introduces content themes. The selected Reels section embeds five Instagram videos supplied by Bea, including her SHEIN collaboration. Each embed has a direct Instagram fallback link. Instagram controls playback availability and may require sign-in. Photos are not presented as video thumbnails. Social cards link to Bea’s confirmed Instagram, TikTok, and YouTube profiles.
+- The photo gallery introduces content themes. The selected Reels section uses Instagram’s official blockquotes and embed.js to embed five videos supplied by Bea, including her SHEIN collaboration. Instagram controls frame height; do not apply fixed heights or a guessed aspect ratio to its generated iframes. Each embed has a direct Instagram fallback link. Instagram controls playback availability and may require sign-in. Photos are not presented as video thumbnails. Social cards link to Bea’s confirmed Instagram, TikTok, and YouTube profiles.
 
 ## Free hosting
 

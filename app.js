@@ -34,6 +34,12 @@ window.addEventListener('popstate', () => setLanguage(languageFromUrl(), false))
 document.querySelectorAll('[data-filter]').forEach(button => {
   button.addEventListener('click', () => {
     document.querySelectorAll('[data-filter]').forEach(item => item.setAttribute('aria-pressed', String(item === button)));
+    const locale = document.documentElement.lang === 'pt-BR' ? 'pt' : 'en';
+    document.querySelectorAll('[data-topic-field]').forEach(element => {
+      const key = `topic_${button.dataset.filter}_${element.dataset.topicField}`;
+      element.dataset.i18n = key;
+      if (translations) element.innerHTML = translations[key][locale];
+    });
     document.querySelectorAll('[data-category]').forEach(card => {
       card.hidden = button.dataset.filter !== 'all' && card.dataset.category !== button.dataset.filter;
     });
