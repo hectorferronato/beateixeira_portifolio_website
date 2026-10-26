@@ -19,7 +19,7 @@ Open the site through your development environment's supported browser routing. 
 - Contact buttons open an email addressed to `beateixeiraoficial@gmail.com`.
 - Images are extracted from Bea's supplied HTML; no invented testimonials or brand partnerships are included.
 - Audience figures come from the original portfolio, with an explicit reporting-date caveat. Confirm them before using the portfolio for outreach.
-- The photo gallery introduces content themes. The selected Reels section links to five actual videos supplied by Bea, including her SHEIN collaboration. Links open on Instagram in a new tab; Instagram may require sign-in. Photos are not presented as video thumbnails.
+- The photo gallery introduces content themes. The selected Reels section embeds five Instagram videos supplied by Bea, including her SHEIN collaboration. Each embed has a direct Instagram fallback link. Instagram controls playback availability and may require sign-in. Photos are not presented as video thumbnails. Social cards link to Bea’s confirmed Instagram, TikTok, and YouTube profiles.
 
 ## Free hosting
 
@@ -33,4 +33,4 @@ A custom domain such as `beateixeira.com` or `bybeateixeira.com` is a polished u
 
 ## Assets and privacy
 
-Photos are served locally. Typography uses the native system font stack, including Apple system fonts on Apple devices; no external fonts are requested. There are no analytics, tracking scripts, or form submissions. Email uses the visitor's mail application. Confirm photo permissions and contact details before publishing.
+Photos are served locally. Typography uses the native system font stack, including Apple system fonts on Apple devices; no external fonts are requested. The site adds no analytics or form submissions. Embedded Instagram players contact Instagram and may use cookies or require sign-in; playback depends on Instagram and the visitor’s browser settings. Email uses the visitor's mail application. Confirm photo permissions and contact details before publishing.
