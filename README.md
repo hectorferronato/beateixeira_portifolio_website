@@ -16,10 +16,10 @@ Open the site through your development environment's supported browser routing. 
 - Share a specific language with `?lang=en` or `?lang=pt`.
 - Edit copy in `index.html` and `translations.json` together. The latter holds both languages.
 - Category buttons filter the photo-based content gallery.
-- Contact buttons open an email addressed to `contato@assessoriamelo.com`.
+- Contact buttons open an email addressed to `beateixeiraoficial@gmail.com`.
 - Images are extracted from Bea's supplied HTML; no invented testimonials or brand partnerships are included.
 - Audience figures come from the original portfolio, with an explicit reporting-date caveat. Confirm them before using the portfolio for outreach.
-- The gallery contains photos, not video case studies. Replace with actual approved video examples when available.
+- The photo gallery introduces content themes. The selected Reels section links to five actual videos supplied by Bea, including her SHEIN collaboration. Links open on Instagram in a new tab; Instagram may require sign-in. Photos are not presented as video thumbnails.
 
 ## Free hosting
 
