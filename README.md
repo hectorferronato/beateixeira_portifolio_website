@@ -15,6 +15,7 @@ Open the site through your development environment's supported browser routing. 
 - English is the first-visit default. The top language button switches to Brazilian Portuguese and updates the URL. Language is dictated by the URL, not stored browser preferences.
 - Share a specific language with `?lang=en` or `?lang=pt-br`.
 - Edit copy in `index.html` and `translations.json` together. The latter holds both languages.
+- After editing CSS, JavaScript, or translations, run `python3 scripts/version_assets.py` before committing. It adds content hashes to asset URLs so visitors get matching files instead of stale cached versions.
 - Topic buttons update a bilingual creative-approach panel with three brand concepts and filter the photo-based content gallery. The chosen topic remains selected when changing languages.
 - Contact buttons open an email addressed to `beateixeiraoficial@gmail.com`.
 - Images are extracted from Bea's supplied HTML; no invented testimonials or brand partnerships are included.
