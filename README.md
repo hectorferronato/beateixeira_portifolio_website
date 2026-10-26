@@ -12,8 +12,8 @@ python3 -m http.server 3000 --bind 0.0.0.0
 
 Open the site through your development environment's supported browser routing. Translation loading requires HTTP rather than opening `index.html` as a local file.
 
-- English is the first-visit default. The top language button switches to Brazilian Portuguese and remembers the choice.
-- Share a specific language with `?lang=en` or `?lang=pt`.
+- English is the first-visit default. The top language button switches to Brazilian Portuguese and updates the URL. Language is dictated by the URL, not stored browser preferences.
+- Share a specific language with `?lang=en` or `?lang=pt-br`.
 - Edit copy in `index.html` and `translations.json` together. The latter holds both languages.
 - Category buttons filter the photo-based content gallery.
 - Contact buttons open an email addressed to `beateixeiraoficial@gmail.com`.
@@ -33,4 +33,4 @@ A custom domain such as `beateixeira.com` or `bybeateixeira.com` is a polished u
 
 ## Assets and privacy
 
-Photos are served locally. Google Fonts is requested for the editorial typefaces, with system fallbacks if unavailable. There are no analytics, tracking scripts, or form submissions. Email uses the visitor's mail application. Confirm photo permissions and contact details before publishing.
+Photos are served locally. Typography uses the native system font stack, including Apple system fonts on Apple devices; no external fonts are requested. There are no analytics, tracking scripts, or form submissions. Email uses the visitor's mail application. Confirm photo permissions and contact details before publishing.
