@@ -4,7 +4,7 @@ let translations;
 async function setLanguage(language, updateHistory = true) {
   try {
     if (!translations) {
-      const response = await fetch('translations.json?v=99dbb1a609af');
+      const response = await fetch('translations.json?v=80ecfc7606f7');
       if (!response.ok) throw new Error('Translation file unavailable');
       translations = await response.json();
     }
